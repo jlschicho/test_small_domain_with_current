@@ -29,7 +29,7 @@ RESULT_FOLDER = ./output/
 ! if analytical bathymetry
 DEPTH_TYPE = CELL_CENTER
 ANA_BATHY  = F
-DEPTH_FILE = wave_flume_long.txt
+DEPTH_FILE = wave_flume_small.txt
 ! --------------------DIMENSION---------------------------------
 ! cell numbers
 Mglob = 200
@@ -240,7 +240,7 @@ SPONGE_ON = F
 !Sponge_North_Width = 0.0
 !R_Sponge = 0.80
 !A_Sponge = 5.0
-!TID_LOW_PASS = T
+TID_LOW_PASS = T
 
 ! ------------------WAVE AVERAGE CONTROL--------------------------
 WAVE_AVERAGE_ON = F
